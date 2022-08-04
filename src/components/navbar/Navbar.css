@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Merienda:wght@400;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+:root {
+  --poppins: "Poppins", sans-serif;
+  --Raleway: "Raleway", sans-serif;
+}
+nav {
+  color: #4f5a62;
+  box-shadow: 5px 0 10px rgba(36, 36, 36, 0.366);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+}
+.nav-width {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h1 {
+  font-family: var(--Raleway);
+  color: #4f5a62;
+  font-weight: 600;
+  font-size: 28px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+.nav-right {
+  display: flex;
+}
+.socials {
+  display: flex;
+}
+.menu li {
+  margin: 0 15px;
+}
+.menu li a {
+  text-decoration: none;
+  color: #4f5a62;
+  font-family: var(--poppins);
+  font-weight: 500;
+  transition: color 0.3s linear;
+}
+.menu li a:hover {
+  color: #3498db;
+  transition: color 0.3s linear;
+}
